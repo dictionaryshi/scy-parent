@@ -47,6 +47,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <guava.version>30.1.1-jre</guava.version>
+        <aviator.version>5.2.6</aviator.version>
         <commons-io.version>2.10.0</commons-io.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <reflections.version>0.9.12</reflections.version>
@@ -74,6 +75,12 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.googlecode.aviator</groupId>
+                <artifactId>aviator</artifactId>
+                <version>${aviator.version}</version>
             </dependency>
 
             <dependency>
