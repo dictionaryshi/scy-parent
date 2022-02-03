@@ -66,7 +66,7 @@
         <zookeeper.version>3.7.0</zookeeper.version>
         <curator-framework.version>5.2.0</curator-framework.version>
         <curator-recipes.version>5.2.0</curator-recipes.version>
-        <dubbo.version>3.0.5</dubbo.version>
+        <hessian.version>4.0.65</hessian.version>
     </properties>
 
     <dependencyManagement>
@@ -186,9 +186,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
+                <groupId>com.caucho</groupId>
+                <artifactId>hessian</artifactId>
+                <version>${hessian.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
